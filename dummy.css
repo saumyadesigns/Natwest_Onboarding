@@ -1,39 +1,53 @@
-<html lang = "en">
-<head>
-<meta charset = "UTF -8">
-<meta name = "author" content = "saumya tiwari, intern at Natwest">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>"Dummy website for Onboarding"</title>
+body {
+font-family: Verdana, sans- serif;
+margin: 100;
+padding: 100;
+dislay:flex;
+flex-direction: column;
+text-align : center;
+align-content: centre;
+background-color: #F6F5F2;
 
-<link rel="stylesheet" href="dummy.css">
-</head>
+}
 
-<body>
-<header>
-<h1><b> Hello there! </b></h1>
-</header>
+header {
 
-<main>
+text- align : center;
+padding : 1rem;
 
-<p>I am Saumya, a training intern in the technology department at Natwest and this is my first day!</p>
-<p> Here are some of my skills</p>
-</main>
 
-<div class="tech-stack">
-  <div>Python</div>
-  <div>JavaScript</div>
-  <div>C++</div>  
-  <div>MySQL</div>
-  <div>AdobeSuite</div>
-  <div>Figma</div>  
-  <div>C</div>
-  <div>HTML</div>
-  <div>CSS</div>
-</div>
+}
 
-<footer>
-<p> You can find me on Github <a href = "https://github.com/saumyadesigns">here!</a> </p>
-</footer1>
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:center;
+  margin : auto;
+  background-color: #F3D0D7;
+  border-radius: 15px;
 
-</body>
-</html>
+width: fit-content;
+
+
+}
+
+.tech-stack > div {
+  
+  background-color: #F0EBE3;
+  width: 100px;
+  margin: 10px;
+
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+footer {
+padding:1rem;
+font-size: 12px;
+margin-top: auto;
+width:100%
+background-color: #F0EBE3;
+
+}
